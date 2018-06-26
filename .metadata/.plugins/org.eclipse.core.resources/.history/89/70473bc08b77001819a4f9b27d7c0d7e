@@ -1,0 +1,16 @@
+object ExampleOfList 
+{
+    def main(args: Array[String])
+  {
+  
+     var fruit=List("apple","banana","pineapple","pear","orange");
+     
+     var x=fruit.slice(3)
+     fruit.tail
+     
+     println(x)
+   
+     
+  }
+ 
+}

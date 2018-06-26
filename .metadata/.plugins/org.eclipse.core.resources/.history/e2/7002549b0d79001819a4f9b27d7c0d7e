@@ -1,0 +1,31 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    
+      
+      var sq= (n:Int) => n*n
+      println("Square: "+sq(5))
+      
+      var sq2=(n2:Int) => n2*n2
+      println("Square: "+sq2(3))
+      
+      var sum=(n:Int,n2:Int) => sq(n)+sq(n2)
+      println("Sum of Square is: "+sum(5,3))
+    
+      println("Please, enter a number: ")
+      var input=scala.io.StdIn.readInt()
+      
+       while(input!=0)
+       {
+         
+         var out=sq(5)-input
+         
+       }
+        
+      
+      
+    }
+    
+  }

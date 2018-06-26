@@ -1,0 +1,15 @@
+import util.control.Breaks._
+object loop 
+{
+  print("Please, enter a number")
+  var n=scala.io.StdIn.readInt() 
+  for(i <- 0 to n)
+  {
+    breakable
+    {
+      if(n%4==0) break
+    }
+    println(i)
+    
+  }
+}

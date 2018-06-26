@@ -1,0 +1,21 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    
+      
+      var sq= (n:Int) => n*n
+      println("Square: "+sq(5))
+      
+      var sq2=(n2:Int) => n2*n2
+      println("Square: "+sq2(3))
+      
+      var sum=(n:Int,n2:Int) => sq(n)+sq(n2)
+      println("Sum of Square is: "+sum(2,3))
+    
+      
+      
+    }
+    
+  }

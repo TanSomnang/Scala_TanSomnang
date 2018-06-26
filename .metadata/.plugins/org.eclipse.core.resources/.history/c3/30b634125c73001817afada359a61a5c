@@ -1,0 +1,26 @@
+object GreatestNumber {
+   def main(args: Array[String])
+   {
+     var a=32
+     var b=26
+     var c=88
+     
+     if((a>b)&&(a>c))
+     {
+       println(a+" is the biggest")
+     }
+     else if ((b>a)&&(b>c))
+     {
+       println(b+" is the biggest")
+     }
+     else if ((c>a)&&(c>b))
+     {
+       println(c+" is the biggest")
+     }
+     else
+     {
+       println(a+""+b+""+c+""+" are equal")
+     }
+   }
+  
+}

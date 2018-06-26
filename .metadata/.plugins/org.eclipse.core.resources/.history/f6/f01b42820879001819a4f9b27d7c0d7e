@@ -1,0 +1,14 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    def Square(n:Int=3, s:Int)
+    {
+      var s=n*n
+      println(s)
+      
+    }
+    
+  }
+}

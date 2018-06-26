@@ -1,0 +1,16 @@
+object DescendingOrder {
+  def main(args: Array[String])
+  {
+   
+      var a=Array[Int](3)
+      var i=0
+      
+      for (i <- 0 until a.length)
+      {
+        print("Please, input all value: ")
+        var a=scala.io.StdIn.readLine();
+      }
+       var a = List(23,1,23,45,6,78).sorted
+       print(a);
+}
+}

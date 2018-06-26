@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Factorial/src/factorial1.scala&apos; to &apos;FactorialRecursion.scala&apos;" description="Rename resource &apos;factorial1.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/factorial1.scala" name="FactorialRecursion.scala" stamp="1528871252816" updateReferences="true"/>
+</session>

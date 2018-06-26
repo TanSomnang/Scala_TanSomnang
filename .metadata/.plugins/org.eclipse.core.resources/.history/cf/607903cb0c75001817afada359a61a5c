@@ -1,0 +1,13 @@
+object highToLow 
+{
+  def main(args: Array[String])
+  {
+    print("Please, Enter any number: ")
+    var input=scala.io.StdIn.readInt()
+    
+    while(input!=0)
+    {
+      
+    }
+  }
+}

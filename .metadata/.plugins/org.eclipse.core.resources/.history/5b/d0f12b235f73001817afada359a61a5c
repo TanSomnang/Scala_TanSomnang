@@ -1,0 +1,38 @@
+object DescendingOrder {
+  def main(args: Array[String])
+  {
+      print("Please input first number: ")
+      var a=scala.io.StdIn.readLine();
+      print("Please input second number: ")
+      var b=scala.io.StdIn.readLine();
+      print("Please input third number: ")
+      var c=scala.io.StdIn.readLine();
+      
+     if((a>b)&&(a>c))
+     {
+       println(a+"")
+       if ((b>a)&&(b>c))
+       {
+         println(b+"")
+       
+        if ((c>a)&&(c>b))
+       {
+         println(c+"")
+       }
+        else
+        {
+          println(a+"")
+          println(b+"")
+        
+       else
+       {
+         println(a+"")
+         println(c+"")
+       }}
+      else 
+      {
+        println(c+"")
+        println(b+"")
+      }}
+  }
+}

@@ -1,0 +1,13 @@
+object Lists 
+{
+    def main(args: Array[String])
+  
+     var fruit=List("apple","banana","pineapple","pear","orange");
+     
+     fruit.slice(2,5)
+     var(l,r)=fruit:SplitAt()
+     println(fruit)
+     
+  
+ 
+}

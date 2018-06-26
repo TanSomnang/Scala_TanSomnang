@@ -1,0 +1,19 @@
+object Finbonacci 
+{
+  def main(args: Array[String]) :Unit={ 
+   Fibonacci(6); 
+  }
+  
+
+  def Fibonacci(n:Int): Unit=
+  {
+    var n:Int=0
+    var i:Int=0
+    while(i<6)
+    {
+      n=i+i;
+      var i:Int=0
+      print (n+" ");
+    }
+  }
+}

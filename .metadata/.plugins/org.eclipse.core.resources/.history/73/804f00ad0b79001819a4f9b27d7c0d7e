@@ -1,0 +1,16 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    
+      
+      var sq= (n:Int) => n*n
+      println("Square: "+sq(5))
+     
+    
+      
+      
+    }
+    
+  }

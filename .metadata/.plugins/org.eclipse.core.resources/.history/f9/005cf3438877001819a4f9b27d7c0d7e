@@ -1,0 +1,11 @@
+
+
+object List {
+  def main(args: Array[String])
+  {
+     var fruit=List["apple","banana"]
+     
+    
+  }
+ 
+}

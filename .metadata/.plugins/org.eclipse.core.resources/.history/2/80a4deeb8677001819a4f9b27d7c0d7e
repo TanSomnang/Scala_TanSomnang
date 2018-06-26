@@ -1,0 +1,11 @@
+
+
+object List {
+  def main(args: Array[String])
+  {
+     val fruits: List[String]=List("apple","banana")
+     fruit+=
+     
+  }
+ 
+}

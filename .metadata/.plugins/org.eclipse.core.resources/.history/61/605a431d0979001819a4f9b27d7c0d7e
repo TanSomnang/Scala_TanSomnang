@@ -1,0 +1,25 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    def Square(n:Int=3, s:Int)
+    {
+      var s=n*n
+      
+      println(s)
+    }
+    
+      
+     
+    
+    def Sum(a:Int=2, b:Int=4, c:Int , d:Int)
+    {
+      var c=a*a
+      var d=b*b
+      
+      println(c)
+      println(d)
+    }
+  }
+}

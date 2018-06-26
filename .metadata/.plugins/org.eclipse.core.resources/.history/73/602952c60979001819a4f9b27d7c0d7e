@@ -1,0 +1,26 @@
+
+
+object SquareNumber {
+  def main(args: Array[String])
+  {
+    
+    def Square(n:Int):Unit=
+    {
+      println("Please, enter a number")
+      var n=scala.io.StdIn.readInt()
+      var s:Int=0
+      s=n*n
+      println(s)
+    }
+    def Sum(a:Int=2, b:Int=4)
+    {
+      var c=a*a
+      var d=b*b
+      
+      var sum=c+d
+      
+      println(sum)
+     
+    }
+  }
+}

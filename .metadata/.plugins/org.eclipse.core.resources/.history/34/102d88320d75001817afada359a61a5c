@@ -1,0 +1,18 @@
+object highToLow 
+{
+  def main(args: Array[String])
+  {
+    print("Please, Enter any number: ")
+    var input=scala.io.StdIn.readInt()
+    var i=input
+    while(i!=0)
+    {
+      i=i-1;
+      println(i)
+      if(i==0)
+      {
+        println("Happy Birthday!!!")
+      }
+    }
+  }
+}

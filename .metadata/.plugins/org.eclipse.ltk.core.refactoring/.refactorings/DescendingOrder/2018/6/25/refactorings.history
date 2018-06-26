@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DescendingOrder/src/DescendingOrder.scala&apos; to &apos;AscendingOrder.scala&apos;" description="Rename resource &apos;DescendingOrder.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DescendingOrder.scala" name="AscendingOrder.scala" stamp="1529370806384" updateReferences="true"/>
+</session>

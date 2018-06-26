@@ -1,0 +1,15 @@
+
+
+object Lists {
+  def main(args: Array[String])
+  {
+     var fruit=List[String]();
+     fruit + =  "pineapple"
+     fruit +=  "pear"
+     fruit +=  "orange"
+     
+     print(fruit)
+     
+  }
+ 
+}

@@ -1,0 +1,19 @@
+object ComparePoint {
+  def main(args: Array[String])
+  {
+    var a=Array[Int](4)
+    var b=Array[Int](4)
+    var i=0
+    var j=0
+    for(i <- 0 until 3)
+    {
+      print("Please, input 4 subject's score: ")
+      var a[i]=scala.io.StdIn.readLine();
+    }
+    for (j <- 0 until 3)
+    {
+      print("Please, input 4 subject's score: ")
+      var b[j]=scala.io.StdIn.readLine();
+    }
+  }
+}

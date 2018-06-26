@@ -1,0 +1,14 @@
+object loop 
+{
+  def main(args:Array[String])
+  {
+    print("Please, enter your age: ")
+    var n=scala.io.StdIn.readInt() 
+    for(i <- 0 until n)
+    {
+      if(n%4!=0)
+      println(n)
+    }
+  }
+  
+}
